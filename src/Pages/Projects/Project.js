@@ -5,12 +5,10 @@ function Project() {
   return (
    <div className="container" style="font-family: Montserrat">
 
-     
-      
-    
     <div className="row">
       <div className="col-xs-4 col-lg-4 text-center">
             <img src="./images/Pen-01.png" style="width:50%">
+              </img>
             <h1>Projects</h1>
             <h1>Petspiration <a href="https://bferriman.github.io/pet-spiration/">View</a></h1>
            <p>Find and display info about shelter pets</p>
@@ -21,11 +19,15 @@ function Project() {
    
       <div className="col-xs-4 col-lg-4 text-center">
             <img src="./images/Gear-01.png" style="width:50%">
+              </img>
             <h1>Homework</h1>
-        <p>First Profile: <a href="https://github.com/Grisha-Kramer/Homework2">View</a></h1></p>
-        <p>Template Engine: <a href="https://github.com/Grisha-Kramer/Node-pdf-profile">View</a></h1></p>
-        <p>Note Taker: <a href="https://cryptic-peak-50402.herokuapp.com/">View</a></h1></p>
-        <p>Team Builder: <a href="https://github.com/Grisha-Kramer/Team-builder">View</a></h1></p>
+        <p>First Profile: <a href="https://github.com/Grisha-Kramer/Homework2">View
+        </a>
+        </p>
+        
+        <p>Template Engine: <a href="https://github.com/Grisha-Kramer/Node-pdf-profile">View</a></p>
+        <p>Note Taker: <a href="https://cryptic-peak-50402.herokuapp.com/">View</a></p>
+        <p>Team Builder: <a href="https://github.com/Grisha-Kramer/Team-builder">View</a></p>
         
         
       </div>

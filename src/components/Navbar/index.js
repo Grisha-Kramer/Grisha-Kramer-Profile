@@ -17,7 +17,7 @@ class Example extends React.Component {
       <Menu>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a id="portfolio" className="menu-item" href="/">Portfolio</a>
+        <a id="portfolio" className="menu-item" href="/portfolio">Portfolio</a>
         <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       </Menu>
     );
@@ -25,3 +25,5 @@ class Example extends React.Component {
 }
 
 export default Navbar
+
+

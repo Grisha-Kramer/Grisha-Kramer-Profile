@@ -7,6 +7,7 @@ function Contact() {
     <a className="navbar-brand" href="#">
       <div className="logo-image">
             <img src="./images/Logo-01.png" className="img-fluid" width="49px" height="49px">
+              </img>
       </div>
     </a>
     <button className="navbar-toggler" >
@@ -24,14 +25,15 @@ function Contact() {
         <li className="nav-item">
           <a className="nav-link" href="contact.html">Contact</a>
         </li>
-          </div>
-        </li>
+        </ul>
+         
+       
       
       
     </div>
   </nav>
 
-  <div className="container" style="font-family: Montserrat"">
+  <div className="container" style="font-family: Montserrat">
 
      
       
