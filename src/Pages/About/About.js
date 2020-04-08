@@ -43,7 +43,7 @@ function AboutMe() {
           <h1>Hobbies and fun</h1>
           <p>Riding and repairing bicycles</p>
           <p>Guitar, Keys, Drums, Accordion, Cello, Beatbox</p>
-          <p>Code</p>
+          <p>Intense culinary activities, sourdough, pizza tossing etc</p>
         </div>
       </div>
     </>

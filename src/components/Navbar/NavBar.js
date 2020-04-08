@@ -3,12 +3,10 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import { slide as Menu } from 'react-burger-menu'
 
-class Example extends React.Component {
+class Navbar extends React.Component {
   showSettings (event) {
     event.preventDefault();
-    .
-    .
-    .
+    
   }
 
   render () {
