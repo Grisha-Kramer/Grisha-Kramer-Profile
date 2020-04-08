@@ -12,7 +12,7 @@ function AboutMe() {
         </div>
 
         <div class="col-xs-4 col-lg-4 text-center">
-          <img src="./images/Gear-01.png" style="width:50%"></img>
+          <img src="./public/icons/Gear-01.png" style="width:50%"></img>
           <h1>Front | Back </h1>
           <p>HTML |APIs</p>
           <p>Javascript | Express</p>
