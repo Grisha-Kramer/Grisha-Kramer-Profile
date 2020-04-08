@@ -18,6 +18,11 @@ function Project() {
             <a href="https://glacial-eyrie-74819.herokuapp.com/">View</a>
           </h1>
           <p>Find local small businesses to support</p>
+          <h1>
+           Pipeline{" "}
+            <a href="https://glacial-eyrie-74819.herokuapp.com/">View</a>
+          </h1>
+          <p>Streamline the commercial real estate documentation process</p>
         </div>
 
         <div className="col-xs-4 col-lg-4 text-center">

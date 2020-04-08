@@ -23,6 +23,28 @@ function AboutMe() {
           <p>JSON | Mongoose</p>
           <p>React | </p>
         </div>
+
+        <div class="col-xs-4 col-lg-4 text-center">
+          <img src="./public/icons/Suitcase-01.png" style="width:50%"></img>
+          <h1>Professional Skills</h1>
+          <p>Google Ads</p>
+          <p>Google Tag Manager</p>
+          <p>Google Optimize</p>
+          <p>Google Analytics</p>
+          <p>Facebook Pixel</p>
+          <p>Facebook Ad Manager</p>
+          <p>SEMRush</p>
+          <p>Vlookup("Advanced Excel", "Skills",2,TRUE)</p>
+          <p>Tableau</p>
+          <p>Hootsuite</p>
+          <p>Mailchimp</p>
+          <p>Recruiting, hiring and training</p>
+          <img src="./public/icons/Ribbon-01.png" style="width:50%"></img>
+          <h1>Hobbies and fun</h1>
+          <p>Riding and repairing bicycles</p>
+          <p>Guitar, Keys, Drums, Accordion, Cello, Beatbox</p>
+          <p>Code</p>
+        </div>
       </div>
     </>
   );
