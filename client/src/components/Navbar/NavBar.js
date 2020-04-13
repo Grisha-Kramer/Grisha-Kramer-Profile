@@ -1,22 +1,54 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import { slide as Menu } from 'react-burger-menu'
 
 class Navbar extends React.Component {
-  showSettings (event) {
-    event.preventDefault();
-    
-  }
 
   render () {
     return (
-      <Menu style="font-family: Montserrat">
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a id="portfolio" className="menu-item" href="/">Portfolio</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-      </Menu>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link
+                to="/"
+                className={
+                  window.location.pathname === "/" ||
+                  window.location.pathname === "/about"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/contact"
+                className={
+                  window.location.pathname === "/contact"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/Projects"
+                className={
+                  window.location.pathname === "/projects"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Projects
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     );
   }
 }

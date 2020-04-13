@@ -50,4 +50,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default About;
