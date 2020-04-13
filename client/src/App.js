@@ -2,11 +2,12 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Header from "./components/header"
-import Navbar from "./components/Navbar"
-import Contact from "./components/Contact"
-import About from "./components/About"
+import Navbar from "./components/Navbar/NavBar"
+import About from "./Pages/About/About"
+import Projects from "./pages/Projects/Project"
+import Contact from "./Pages/Contact/Contact"
 import Footer from "./components/Footer"
 
 function App() {
@@ -16,8 +17,7 @@ function App() {
         <div>
           <div className="ContentDiv">
             <Navbar />
-            <Header />
-            <Route exact path="/" component={Aboutme} />
+            <Route exact path="/" component={About} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/Contact" component={Contact} />
           </div>
