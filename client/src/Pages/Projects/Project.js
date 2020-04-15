@@ -3,10 +3,12 @@ import "./style.css";
 
 function Project() {
   return (
-    <div className="container" style="font-family: Montserrat">
+    <div className="container" styles="font-family: Montserrat">
       <div className="row">
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src="./public/icons/Pen-01.png" style="width:50%"></img>
+          <img src="./public/icons/Pen-01.png" 
+          styles="width:50%"
+          alt="Pen"></img>
           <h1>Projects</h1>
           <h1>
             Petspiration{" "}
@@ -26,7 +28,9 @@ function Project() {
         </div>
 
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src=".public/icons/Gear-01.png" style="width:50%"></img>
+          <img src=".public/icons/Gear-01.png" 
+          styles="width:50%"
+          alt="Gear"></img>
           <h1>Homework</h1>
           <p>
             First Profile:{" "}
@@ -48,7 +52,9 @@ function Project() {
         </div>
 
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src="./public/icons/Lightbulb-01.png" style="width:50%"></img>
+          <img src="./public/icons/Lightbulb-01.png" 
+          styles="width:50%"
+          alt="Lightbulb"></img>
           <h1>Future Dev</h1>
           <h1>Custom Alarm Clock</h1>
           <p>

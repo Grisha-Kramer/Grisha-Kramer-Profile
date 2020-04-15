@@ -1,18 +1,26 @@
 import React from "react";
 
-function AboutMe() {
+function About() {
   return (
     <>
       <br></br>
-      <div className="container" style="font-family: Montserrat">
+      <div className="container" styles="font-family: Montserrat">
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src="./public/icons/Pen-01.png" style="width:50%"></img>
+          <img
+            src="../client/public/icons/Pen-01.png"
+            styles="width:50%"
+            alt="Pen"
+          />
           <h1>Grisha Kramer</h1>
           <p> I am creative full stack Developer based in Richmond, VA</p>
         </div>
 
-        <div class="col-xs-4 col-lg-4 text-center">
-          <img src="./public/icons/Gear-01.png" style="width:50%"></img>
+        <div className="col-xs-4 col-lg-4 text-center">
+          <img
+            src="./client/public/icons/Gear-01.png"
+            styles="width:50%"
+            alt="Gear"
+          ></img>
           <h1>Front | Back </h1>
           <p>HTML |APIs</p>
           <p>Javascript | Express</p>
@@ -24,8 +32,12 @@ function AboutMe() {
           <p>React | </p>
         </div>
 
-        <div class="col-xs-4 col-lg-4 text-center">
-          <img src="./public/icons/Suitcase-01.png" style="width:50%"></img>
+        <div className="col-xs-4 col-lg-4 text-center">
+          <img
+            src="./public/icons/Suitcase-01.png"
+            styles="width:50%"
+            alt="Suitcase"
+          ></img>
           <h1>Professional Skills</h1>
           <p>Google Ads</p>
           <p>Google Tag Manager</p>
@@ -39,7 +51,11 @@ function AboutMe() {
           <p>Hootsuite</p>
           <p>Mailchimp</p>
           <p>Recruiting, hiring and training</p>
-          <img src="./public/icons/Ribbon-01.png" style="width:50%"></img>
+          <img
+            src="./public/icons/Ribbon-01.png"
+            styles="width:50%"
+            alt="Ribbon"
+          ></img>
           <h1>Hobbies and fun</h1>
           <p>Riding and repairing bicycles</p>
           <p>Guitar, Keys, Drums, Accordion, Cello, Beatbox</p>

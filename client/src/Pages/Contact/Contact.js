@@ -3,10 +3,12 @@ import "./style.css";
 
 function Contact() {
   return (
-    <div className="container" style="font-family: Montserrat">
+    <div className="container" styles="font-family: Montserrat">
       <div className="row">
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src="./images/Pen-01.png" style="width:50%"></img>
+          <img src="./images/Pen-01.png"
+          styles="width:50%"
+          alt="Pen"></img>
           <h1>Contact</h1>
           <p>Email: grisharkramer@gmail.com </p>
           <p>
