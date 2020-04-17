@@ -1,4 +1,5 @@
 import React from "react";
+// import Pen from "../icons/Pen-01.png"
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <div className="container" styles="font-family: Montserrat">
         <div className="col-xs-4 col-lg-4 text-center">
           <img
-            src="../client/public/icons/Pen-01.png"
+            src="../icons/Pen-01.png"
             styles="width:50%"
             alt="Pen"
           />
