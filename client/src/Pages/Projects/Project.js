@@ -6,9 +6,12 @@ function Project() {
     <div className="container" styles="font-family: Montserrat">
       <div className="row">
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src="./public/icons/Pen-01.png" 
-          styles="width:50%"
-          alt="Pen"></img>
+          <img
+            src="../icons/Pen-01.png"
+            styles="width:50%"
+            alt="Pen"
+            width="100px"
+          ></img>
           <h1>Projects</h1>
           <h1>
             Petspiration{" "}
@@ -21,16 +24,20 @@ function Project() {
           </h1>
           <p>Find local small businesses to support</p>
           <h1>
-           Pipeline{" "}
+            Pipeline{" "}
             <a href="https://glacial-eyrie-74819.herokuapp.com/">View</a>
           </h1>
           <p>Streamline the commercial real estate documentation process</p>
         </div>
 
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src=".public/icons/Gear-01.png" 
-          styles="width:50%"
-          alt="Gear"></img>
+          <img
+            src="../icons/Gear-01.png"
+            styles="width:50%"
+            alt="Gear"
+            classname="icon"
+            width="100px"
+          ></img>
           <h1>Homework</h1>
           <p>
             First Profile:{" "}
@@ -52,9 +59,13 @@ function Project() {
         </div>
 
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src="./public/icons/Lightbulb-01.png" 
-          styles="width:50%"
-          alt="Lightbulb"></img>
+          <img
+            src="../icons/Lightbulb-01.png"
+            styles="width:50%"
+            alt="Lightbulb"
+            classname="icon"
+            width="100px"
+          ></img>
           <h1>Future Dev</h1>
           <h1>Custom Alarm Clock</h1>
           <p>

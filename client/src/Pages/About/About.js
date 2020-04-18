@@ -1,5 +1,5 @@
 import React from "react";
-// import Pen from "../icons/Pen-01.png"
+
 
 function About() {
   return (
@@ -11,16 +11,24 @@ function About() {
             src="../icons/Pen-01.png"
             styles="width:50%"
             alt="Pen"
+            className="icon"
+            width="100px"
           />
           <h1>Grisha Kramer</h1>
           <p> I am creative full stack Developer based in Richmond, VA</p>
+          <h1>Hobbies and fun</h1>
+          <p>Riding and repairing bicycles</p>
+          <p>Guitar, Keys, Drums, Accordion, Cello, Beatbox</p>
+          <p>Intense culinary activities, sourdough, pizza tossing etc</p>
         </div>
 
         <div className="col-xs-4 col-lg-4 text-center">
           <img
-            src="./client/public/icons/Gear-01.png"
+            src="../icons/Gear-01.png"
             styles="width:50%"
             alt="Gear"
+            classname="icon"
+            width="100px"
           ></img>
           <h1>Front | Back </h1>
           <p>HTML |APIs</p>
@@ -32,12 +40,15 @@ function About() {
           <p>JSON | Mongoose</p>
           <p>React | </p>
         </div>
+                   
 
         <div className="col-xs-4 col-lg-4 text-center">
           <img
-            src="./public/icons/Suitcase-01.png"
+            src="../icons/Suitcase-01.png"
             styles="width:50%"
             alt="Suitcase"
+            classname="icon"
+            width="100px"
           ></img>
           <h1>Professional Skills</h1>
           <p>Google Ads</p>
@@ -52,15 +63,6 @@ function About() {
           <p>Hootsuite</p>
           <p>Mailchimp</p>
           <p>Recruiting, hiring and training</p>
-          <img
-            src="./public/icons/Ribbon-01.png"
-            styles="width:50%"
-            alt="Ribbon"
-          ></img>
-          <h1>Hobbies and fun</h1>
-          <p>Riding and repairing bicycles</p>
-          <p>Guitar, Keys, Drums, Accordion, Cello, Beatbox</p>
-          <p>Intense culinary activities, sourdough, pizza tossing etc</p>
         </div>
       </div>
     </>

@@ -6,9 +6,12 @@ function Contact() {
     <div className="container" styles="font-family: Montserrat">
       <div className="row">
         <div className="col-xs-4 col-lg-4 text-center">
-          <img src="./images/Pen-01.png"
+          <img src="../icons/Pen-01.png"
           styles="width:50%"
-          alt="Pen"></img>
+          alt="Pen"
+          className="icon"
+          width="100px"
+          ></img>
           <h1>Contact</h1>
           <p>Email: grisharkramer@gmail.com </p>
           <p>
