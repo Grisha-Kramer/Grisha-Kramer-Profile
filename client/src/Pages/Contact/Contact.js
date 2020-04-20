@@ -6,7 +6,7 @@ function Contact() {
     <div className="container" styles="font-family: Montserrat">
       <div className="col-xs-4 col-lg-4 text-center">
         <img
-          src="../icons/Grisha.jpg"
+          src="../icons/Grisha.JPG"
           styles="width:50%"
           alt="Pen"
           className="icon"
