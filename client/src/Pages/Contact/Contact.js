@@ -7,13 +7,15 @@ function Contact() {
       <div className="col-xs-4 col-lg-4 text-center">
         <img
           src="../icons/Grisha.JPG"
-          styles="width:50%"
-          alt="Pen"
-          className="icon"
-          width="100px"
+          alt="Grisha"
+          className="headshot"
+          width="300px"
         ></img>
         <h1>Contact</h1>
-        <p>Email: grisharkramer@gmail.com </p>
+        <p>
+          <a href="mailto:grisharkramer@gmail.com">grisharkramer@gmail.com</a>
+        </p>
+        <p>(401) 829-7455</p>
         <p>
           <a href="https://www.linkedin.com/in/grisha-kramer-65b8777b/">
             Linkedin

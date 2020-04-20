@@ -13,21 +13,40 @@ function Project() {
             width="100px"
           ></img>
           <h1>Projects</h1>
-          <h1>
+          <h1 href="https://bferriman.github.io/pet-spiration/">
             Petspiration{" "}
-            <a href="https://bferriman.github.io/pet-spiration/">View</a>
           </h1>
-          <p>Find and display info about shelter pets</p>
-          <h1>
-            Nextdoor Neighbor{" "}
-            <a href="https://glacial-eyrie-74819.herokuapp.com/">View</a>
-          </h1>
-          <p>Find local small businesses to support</p>
-          <h1>
-            Pipeline{" "}
-            <a href="https://glacial-eyrie-74819.herokuapp.com/">View</a>
-          </h1>
-          <p>Streamline the commercial real estate documentation process</p>
+          <img
+            src="../icons/PetSpiration-demo.gif"
+            a
+            href="https://bferriman.github.io/pet-spiration/"
+          ></img>
+          <p>
+            <a href="https://bferriman.github.io/pet-spiration/">
+              Find and display info about shelter pets
+            </a>
+          </p>
+          <a href="https://github.com/Grisha-Kramer/pet-spiration">
+            View on Github
+          </a>
+          <h1>Nextdoor Neighbor </h1>
+
+          <img src="../icons/Nextdoor-Neighbor.gif"></img>
+          <p>
+            <a href="https://glacial-eyrie-74819.herokuapp.com/">
+              Find local small businesses to support
+            </a>
+          </p>
+          <a href="https://github.com/Grisha-Kramer/nextdoor_neighbor">
+            View on Github
+          </a>
+          <h1>Pipeline </h1>
+          <p>
+            <a href="https://github.com/seibert-gm90/Pipeline">
+              Streamline the commercial real estate documentation process
+            </a>
+          </p>
+          <a href="https://github.com/seibert-gm90/Pipeline">View on Github</a>
         </div>
 
         <div className="col-xs-4 col-lg-4 text-center">
@@ -66,6 +85,7 @@ function Project() {
             classname="icon"
             width="100px"
           ></img>
+
           <h1>Future Dev</h1>
           <h1>Custom Alarm Clock</h1>
           <p>

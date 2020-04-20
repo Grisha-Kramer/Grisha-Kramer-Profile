@@ -49,7 +49,7 @@ function About() {
             classname="icon"
             width="100px"
           ></img>
-          <h1>Backend</h1>
+          <h1>Back End</h1>
           <p>APIs</p>
           <p>Express</p>
           <p> Passport</p>
