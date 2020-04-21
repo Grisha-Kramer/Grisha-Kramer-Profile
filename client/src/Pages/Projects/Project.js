@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import data from "../../components/Data"
 
 function Project() {
   return (
@@ -74,6 +75,16 @@ function Project() {
           <p>
             Team Builder:{" "}
             <a href="https://github.com/Grisha-Kramer/Team-builder">View</a>
+          </p>
+          <p>
+            SQL-Editor:{" "}
+            <a href="https://github.com/Grisha-Kramer/SQL-Editor">View</a>
+          </p>
+          <p>
+            Offline Budget Tracker:{" "}
+            <a href="https://github.com/Grisha-Kramer/Offline_Budget_Tracker">
+              View
+            </a>
           </p>
         </div>
 

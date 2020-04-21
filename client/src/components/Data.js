@@ -2,6 +2,8 @@ export default {
   name: "Grisha Kramer",
   contactEmail: "grisharkramer@gmail.com",
   landingPageName: "About",
+  Music: "Guitar, Keys, Drums, Accordion, Cello, Beatbox, Vocals",
+  Culinary: "Intense culinary activities, sourdough, pizza tossing, cheesemaking etc etc",
 
   projects: [
     {
