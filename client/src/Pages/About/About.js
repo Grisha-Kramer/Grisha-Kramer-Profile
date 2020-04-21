@@ -33,15 +33,22 @@ function About() {
             classname="icon"
             width="100px"
           ></img>
-          <h1>Code</h1>
+          <h1>Full Stack</h1>
+          <strong>Languages</strong>
           <p>HTML #CSS</p>
-          <p>Javascript jQuery</p>
-          <p>Bootstrap APIs</p>
-          <p>mySQL NoSQL</p>
-          <p>AJAX Express</p>
-          <p>Node.js JSON</p>
-          <p>MongoDB Mongoose</p>
-          <p>React Passport</p>
+          <p>Javascript SQL</p>
+          <strong>Javascript Libraries</strong>
+          <p>React jQuery</p>
+          <p>Chart.js Moment.js</p>
+          <strong>Databases</strong>
+          <p>MongoDB MySQL IndexedDB</p>
+          <strong>Server-Side Development</strong>
+          <p>Node.js Passport.js</p>
+          <p>Express Handlebars</p>
+          <p>Mongoose Sequelize</p>
+          <strong>Deployment</strong>
+          <p>Git  GitHub  Heroku</p>
+          <p>JawsDB   mLab</p>
         </div>
         <div className="col-xs-4 col-lg-4 text-center">
           <img
