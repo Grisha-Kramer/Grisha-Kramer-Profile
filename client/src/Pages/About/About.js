@@ -35,20 +35,38 @@ function About() {
           ></img>
           <h1>Full Stack</h1>
           <strong>Languages</strong>
-          <p>HTML #CSS</p>
-          <p>Javascript SQL</p>
+          <p>
+            HTML <i className="fab fa-html5"></i> #CSS{" "}
+            <i className="fab fa-css3-alt"></i>
+          </p>
+          <p>
+            Javascript <i className="fab fa-js-square"></i> SQL
+          </p>
+          <p>
+            Bootstrap <i className="fab fa-bootstrap"></i>
+          </p>
           <strong>Javascript Libraries</strong>
-          <p>React jQuery</p>
+          <p>
+            React <i className="fab fa-react"></i> jQuery
+          </p>
           <p>Chart.js Moment.js</p>
+
           <strong>Databases</strong>
           <p>MongoDB MySQL IndexedDB</p>
           <strong>Server-Side Development</strong>
-          <p>Node.js Passport.js</p>
-          <p>Express Handlebars</p>
+          <p>
+            Node.js <i className="fab fa-node"></i> Passport.js
+          </p>
+          <p>
+            Express  Handlebars
+          </p>
           <p>Mongoose Sequelize</p>
           <strong>Deployment</strong>
-          <p>Git  GitHub  Heroku</p>
-          <p>JawsDB   mLab</p>
+          <p>
+            Git <i className="fab fa-git-square"></i> GitHub{" "}
+            <i class="fab fa-github"></i> Heroku
+          </p>
+          <p>JawsDB mLab</p>
         </div>
         <div className="col-xs-4 col-lg-4 text-center">
           <img
