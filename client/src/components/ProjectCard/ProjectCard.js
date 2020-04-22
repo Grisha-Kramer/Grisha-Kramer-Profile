@@ -1,11 +1,12 @@
 import React from "react";
+import user from "../Data"
 
-const Work = ({ projects }) => {
+const Work = () => {
   return (
     <div className="work_container">
       <h1>Projects.</h1>
       <div className="projects_container">
-        {projects.map((project) => (
+        {user.projects.map((project) => (
           <div key={project.id} className="project">
             <div className="image">
               <a href={project.url}>
