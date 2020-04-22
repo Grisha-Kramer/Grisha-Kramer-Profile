@@ -21,12 +21,14 @@ function Header() {
             <a href="/Contact">
               <li>Contact</li>
             </a>
+            <a href="/Portfolio">
+              <li>Portfolio</li>
+            </a>
           </ul>
         </div>
       </nav>
       <div className="container fluid head">
         <img src="../icons/Logo-01.png" alt="logo" width="75px" />
-
       </div>
     </div>
   );

@@ -88,7 +88,7 @@ function About() {
           <p>Tableau</p>
           <p>Hootsuite</p>
           <p>Mailchimp</p>
-          <p>Recruiting, hiring and training</p>
+          <p>Hiring, training, managing</p>
         </div>
       </div>
     </>
