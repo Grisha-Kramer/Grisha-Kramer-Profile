@@ -14,36 +14,42 @@ export default {
       imageSrc: "../icons/PetSpiration-demo.gif",
 
       url: "https://bferriman.github.io/pet-spiration/",
+      description: "Find and display info about shelter pets",
     },
     {
       id: 2,
       title: "Nextdoor Neighbor",
       imageSrc: "../icons/Nextdoor-Neighbor.gif",
       url: "https://glacial-eyrie-74819.herokuapp.com/",
+      description: "Find and display info about shelter pets",
     },
     {
       id: 3,
       title: "PipeLine",
       imageSrc: "https://via.placeholder.com/300",
       url: "http://chetanverma.com/",
+      description: "Streamline the commercial real estate documentation process",
     },
     {
       id: 4,
       title: "Note Taker",
       imageSrc: "../icons/Note_Taker.gif",
       url: "https://cryptic-peak-50402.herokuapp.com/",
+      description: "Write and store notes",
     },
     {
       id: 5,
       title: "Budget Tracker",
       imageSrc: "../icons/Budget_Tracker.gif",
       url: "https://offline-budget.herokuapp.com/",
+      description: "A budget tracker that saves transactions made while offline",
     },
     {
       id: 6,
       title: "SQL Editor",
       imageSrc: "../icons/SQL.gif",
       url: "https://github.com/Grisha-Kramer/SQL-Editor",
+      description: "Edit your venture capital empire's vast workforce",
     },
   ],
 };
