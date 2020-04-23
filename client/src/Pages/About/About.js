@@ -6,8 +6,8 @@ function About() {
   return (
     <>
       <br></br>
-      <div className="container" styles="font-family: Montserrat">
-        <div className="col-xs-4 col-lg-4 text-center">
+      <div className="container" styles="font-family: Montserrat" alt="cont">
+        <div className="col-xs-4 col-lg-center-4 text-center text-wrap">
           <img
             src="../icons/Grisha.JPG"
             styles="width:50%"
@@ -20,7 +20,7 @@ function About() {
             Full stack Developer based in Richmond with extensive experience
             working in startups
           </p>
-          <h1>Recreation</h1>
+          <h1>Off Work</h1>
           <p>Riding and repairing bicycles</p>
           <p>{data.Music}</p>
           <p>{data.Culinary}</p>
@@ -69,7 +69,7 @@ function About() {
           </p>
           <p>JawsDB mLab</p>
         </div>
-        <div className="col-xs-4 col-lg-4 text-center">
+        <div className="col-xs-4 col-lg-4 text-center text-wrap">
           <img
             src="../icons/Suitcase-01.png"
             styles="width:50%"
@@ -77,7 +77,7 @@ function About() {
             classname="icon"
             width="100px"
           ></img>
-          <h1>Professional</h1>
+          <h1>Work</h1>
           <p>Google Ads</p>
           <p>Google Tag Manager</p>
           <p>Google Optimize</p>
