@@ -15,8 +15,8 @@ function Header() {
             <a href="/">
               <li>About</li>
             </a>
-            <a href="/Projects">
-              <li>Projects</li>
+            <a href="https://drive.google.com/open?id=1R7CZXNTuaiB65xl1VkMPnI4Xk1lpkr5-">
+              <li>Resume</li>
             </a>
             <a href="/Contact">
               <li>Contact</li>

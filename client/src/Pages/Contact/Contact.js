@@ -1,11 +1,11 @@
 import React from "react";
-import data from "../../components/Data"
+import data from "../../components/Data";
 import "./style.css";
 
 function Contact() {
   return (
     <div className="container" styles="font-family: Montserrat">
-      <div className="col-xs-4 col-lg-4 text-center">
+      <div className="col-xl text-center">
         <img
           src="../icons/Pen-01.png"
           alt="Pen"
@@ -33,7 +33,6 @@ function Contact() {
           </a>
         </p>
       </div>
-
     </div>
   );
 }

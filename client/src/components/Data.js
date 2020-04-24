@@ -14,21 +14,22 @@ export default {
       imageSrc: "../icons/PetSpiration-demo.gif",
 
       url: "https://bferriman.github.io/pet-spiration/",
-      description: "Find and display info about shelter pets",
+      description: "Find and display info about shelter cats",
+      //Also known as "Tinder for Spinsters"
     },
     {
       id: 2,
       title: "Nextdoor Neighbor",
       imageSrc: "../icons/Nextdoor-Neighbor.gif",
       url: "https://glacial-eyrie-74819.herokuapp.com/",
-      description: "Find and display info about shelter pets",
+      description: "Find local businesses in different categories to patronize",
     },
     {
       id: 3,
       title: "PipeLine",
-      imageSrc: "https://via.placeholder.com/300",
+      imageSrc: "../icons/React_App.gif",
       url: "http://chetanverma.com/",
-      description: "Streamline the commercial real estate documentation process",
+      description: "Streamline the commercial real estate documentation process with a login hosted on Amazon Web Server Cognito set up by yours truly",
     },
     {
       id: 4,

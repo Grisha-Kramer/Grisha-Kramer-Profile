@@ -3,7 +3,9 @@
     text-align: center
 }
 
-#img
+#image
 {
-    width: 400px
+    
+    height: auto;
+    object-position: 50% 50%
 }

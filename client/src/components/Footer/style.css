@@ -2,6 +2,7 @@
   min-height: 100px;
   background: rgb(255, 254, 254);
   position: relative;
+  align-items: center;
 }
 
 .footer span {
@@ -11,4 +12,9 @@
   right: 0;
   padding: 3px;
   background: #B8B8B8;
+}
+
+#container{
+  margin-left: auto;
+  margin-right: auto;
 }
