@@ -5,7 +5,7 @@ import "../ProjectCard/ProjectCard.css"
 const Work = () => {
   return (
     <div className="container" styles="font-family: Montserrat">
-      <div className="projects_container">
+      <div className="projects_container" id="proj">
         <div className="col-xl text-center">
           <h1 className="title">Projects & Homework</h1>
           {user.projects.map((project) => (
