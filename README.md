@@ -3,6 +3,8 @@
 
 A portfolio coded in React using MongooseDB to store project information.
 
+![](Grisha_Kramer_Profile.gif)
+
 
 
 
