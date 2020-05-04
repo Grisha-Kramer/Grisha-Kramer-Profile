@@ -6,13 +6,11 @@ A portfolio coded in React using MongooseDB to store project information.
 ![](Grisha_Kramer_Profile.gif)
 
 
-
-
 # Deployed
 
 The app is deployed at:
 
-httpshttps://grishakramerreactprofile.herokuapp.com/
+https://grishakramerreactprofile.herokuapp.com/
 
 
 ## Description
